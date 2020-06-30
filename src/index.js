@@ -74,10 +74,6 @@ class ProductTable extends React.Component {
 }
 
 class SearchBar extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   handleFilterTextChange = (e) => this.props.onFilterTextChange(e.target.value)
   handleInStockChange = (e) => this.props.onInStockChange(e.target.checked)
 
